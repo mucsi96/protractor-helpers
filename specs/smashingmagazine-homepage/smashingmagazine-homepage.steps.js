@@ -25,7 +25,7 @@ module.exports = function () {
     });
 
     this.Then(/^the URL should end with "([^"]*)"$/, function (text, done) {
-        helpers.waitForURLToEndWithText(text, done);
+        helpers.waitForURLToEndWithText(text).then(done);
     });
 
     this.Given(/^that I am on mobile$/, function (done) {

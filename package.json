@@ -1,6 +1,6 @@
 {
   "name": "protractor-helpers",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Helper functions for testing with protractor",
   "main": "lib/protractor-helpers.js",
   "scripts": {
@@ -9,7 +9,8 @@
   "author": "Igor Mucsicska <mucsi_96@yahoo.com>",
   "license": "ISC",
   "dependencies": {
-    "prototypes": "^0.2.2"
+    "prototypes": "^0.2.2",
+    "q": "^1.0.1"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
